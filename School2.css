@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700');
+
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	}
+
+.navbar-inverse {
+	border-radius: 0px;
+}
+
+.navbar-brand {
+	font-family: 'Playfair Display SC', 'serif'; 
+}
+
+.header {
+	display: table;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url("images/graduation.jpg") no-repeat 50% 50%;
+	top: 0;
+	background-size: cover;
+	}
+	
+.jumbotron {
+	background: transparent;
+}
+
+	.jumbotron h1 {
+		font-family: 'Playfair Display SC', 'serif';
+		background: rgba(0, 0, 0, 0.5);
+		color: white;
+		width: 420px;
+		font-size: 3.5em;
+		padding: 5px 20px 5px 20px;
+		margin-left: 30px;
+	}
+	
+	.jumbotron p {
+		font-family: 'Playfair Display SC', 'serif';
+		background: rgba(0, 0, 0, 0.5);
+		color: white;
+		width: 420px;
+		font-size: 1.5em;
+		padding: 5px 20px 5px 20px;
+		margin-left: 30px;
+	}
+	
+	.jumbotron a {
+		font-family: 'Playfair Display SC', 'serif';
+		margin-left: 30px;
+	}
+	
+.page {
+	padding: 30px 40px;
+	text-align: justify;
+}
+
+.grey {
+	background: #d7d9db;
+	width: 100%;
+	display: table;
+	margin-top: 40px;
+}
+
+	.grey p {
+		font-size: 1.3;
+		text-align: center;
+	}
+	
+	.grey h2 {
+		color: #26acd2;
+	}
+
+.white {
+	width: 100%;
+	display: table;
+	padding-bottom: 40px;
+}
+	
+	.white h3 {
+		font-family: 'Playfair Display SC', 'serif'; 
+		color: #80cee4;
+		text-align: center;
+		font-size: 1.5em;
+		margin-bottom: 15px;
+	}
+	
+.small {
+	font-size: 1.1em;
+	text-align: center;
+}
+
+.dpt {
+	font-size: 1.2em;
+	text-align: center;
+	color: #80cee4;
+}
+
+.circle-thumb {
+	width: 200px;
+	height: 170px;
+	text-align: center;
+	margin: 20px 0px 10px 20px;
+	border-radius: 50%;
+	transition: 0.1s;
+}
+	.circle-thumb:hover {
+		border: 3px solid transparent;
+		transition: 0.1s;
+	}
+
+.hideme1 {
+    opacity:0;
+	}
+	
+.down {
+	padding: 20px;
+}
+
+.say {
+	background: #d7d9db;
+	border-radius: 4px;
+	padding: 10px 15px;
+}
+
+.portrait {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	margin: 40px auto 10px auto;
+	text-align: center;
+	display: block;
+}
+	
+#about {
+	height: 560px;
+}
+	
+#footer {
+	padding-bottom: 10px;
+}
+	
+#footer p {
+	font-size: 1em;
+	font-family: 'Goudy Bookletter 1911', 'serif';
+	margin: 30px auto 10px auto;
+}
+	
+h2 {
+	font-family: 'Playfair Display SC', 'serif'; 
+	color: #80cee4;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+h3 {
+	font-family: 'Playfair Display SC', 'serif'; 
+	color: white;
+	text-align: center;
+	font-size: 1.7em;
+	margin-bottom: 30px;
+}
+
+hr {
+	text-align: center;
+	color: #80cee4;
+	width: 50px;
+	margin-bottom: 40px;
+}
+
+p {
+	font-family: 'Goudy Bookletter 1911', 'serif';
+	font-size: 1.4em;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	margin-right: 40px;
+}
+
+#footer ul li {
+	text-align: left;
+	padding-left: 110px;
+}
+
+@media only screen and (max-width: 980px) {
+    .circle-thumb {
+		margin: 20px auto 10px auto;
+		
+	}
+}
+
+@media only screen and (max-width: 768px) {
+    .circle-thumb {
+		margin: 20px auto 10px 80px;
+		width: 160px;
+		height: 135px;
+		
+	}
+	
+	[class*="col-"] {
+        width: 50%;
+    }
+	
+	.jumbotron {
+		margin-top: 400px;
+	}
+}

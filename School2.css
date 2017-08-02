@@ -105,14 +105,12 @@ html, body {
 	width: 200px;
 	height: 170px;
 	text-align: center;
-	margin: 20px 0px 10px 20px;
+	margin: 20px auto 10px auto;
 	border-radius: 50%;
+	display: block;
+	opacity: 0.5;
 	transition: 0.1s;
 }
-	.circle-thumb:hover {
-		border: 3px solid transparent;
-		transition: 0.1s;
-	}
 
 .hideme1 {
     opacity:0;
@@ -126,6 +124,10 @@ html, body {
 	background: #d7d9db;
 	border-radius: 4px;
 	padding: 10px 15px;
+}
+
+.address {
+	text-align: center;
 }
 
 .portrait {
@@ -145,10 +147,10 @@ html, body {
 	padding-bottom: 10px;
 }
 	
-#footer p {
+#copy {
 	font-size: 1em;
 	font-family: 'Goudy Bookletter 1911', 'serif';
-	margin: 30px auto 10px auto;
+	margin: 40px auto 10px auto;
 }
 	
 h2 {
@@ -166,6 +168,16 @@ h3 {
 	margin-bottom: 30px;
 }
 
+#footer h3 {
+	font-family: 'Playfair Display SC', 'serif'; 
+	color: white;
+	font-size: 1.7em;
+}
+
+#footer p {
+	font-size: 1.2em;
+}
+
 hr {
 	text-align: center;
 	color: #80cee4;
@@ -180,28 +192,39 @@ p {
 
 ul {
 	list-style-type: none;
-	text-align: center;
-	margin-right: 40px;
+	text-align: left;
 }
 
 #footer ul li {
 	text-align: left;
-	padding-left: 110px;
 }
+
+#footer a {
+	transition: 0.3s;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	transition: 0.3s;
+}
+
+.left-h3 {
+	text-align: left;
+	margin-left: 30px;
+}
+
 
 @media only screen and (max-width: 980px) {
     .circle-thumb {
 		margin: 20px auto 10px auto;
-		
 	}
 }
 
 @media only screen and (max-width: 768px) {
     .circle-thumb {
-		margin: 20px auto 10px 80px;
+		margin: 20px auto 10px 90px;
 		width: 160px;
 		height: 135px;
-		
 	}
 	
 	[class*="col-"] {
@@ -211,4 +234,5 @@ ul {
 	.jumbotron {
 		margin-top: 400px;
 	}
+	
 }

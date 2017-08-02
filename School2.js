@@ -19,5 +19,26 @@ $(document).ready(function() {
     
     });
 	
+	
+	$(".circle-thumb").mouseenter(function() {
+		$(this).fadeTo("fast", 1);
+	});
+	
+	$(".circle-thumb").mouseleave(function() {
+		$(this).fadeTo("fast", 0.5);
+	});
+	
+	
+	$("#footer a").mouseenter(function() {
+		$(this).css("letter-spacing","1px");
+		$(this).css("font-weight","700");
+	});
+	
+	$("#footer a").mouseleave(function() {
+		$(this).css("letter-spacing","0px");
+		$(this).css("font-weight","400");
+	});
+	
+	
     
 });

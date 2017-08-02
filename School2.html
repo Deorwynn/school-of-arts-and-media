@@ -34,15 +34,25 @@
 		<li><a href="#">Admissions</a></li>
 		<li><a href="#">Scholarships</a></li>
 		<li><a href="#">Events</a></li>
-		<li><a href="#">Guides</a></li>
+		<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academic Programmes<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Undergraduate</a></li>
+            <li><a href="#">Postgraduate</a></li>
+			<li><a href="#">Distance Learning</a></li>
+            <li><a href="#">Life-Long Learning</a></li>
+			<li><a href="#">Diploma</a></li>
+			<li><a href="#">Other Courses</a></li>
+          </ul>
+        </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Student Department</a></li>
+            <li><a href="#">Admissions Department</a></li>
+            <li><a href="#">Lecturers</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="#">Address</a></li>
           </ul>
         </li>
       </ul>
@@ -59,7 +69,7 @@
 </section>
 
 <div class="page white" id="about">
-	<div class="col-lg-6 col-md-6">
+	<div class="col-lg-6 col-md-6 col-sm-12">
 		<h2>About Us</h2>
 		<hr>
 		<div class="info">
@@ -75,6 +85,7 @@
 				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
 				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="3"></li>
 			  </ol>
 
 			  <!-- Wrapper for slides -->
@@ -91,7 +102,21 @@
 					Our University
 				  </div>
 				</div>
+				<div class="item">
+				  <img src="images/car-2.jpg" alt="...">
+				  <div class="carousel-caption">
+					Our University
+				  </div>
+				</div>
+				<div class="item">
+				  <img src="images/bookshelf.jpg" alt="...">
+				  <div class="carousel-caption">
+					Our University
+				  </div>
+				</div>
 			  </div>
+			  
+			
 
 			  <!-- Controls -->
 			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -171,7 +196,7 @@
 		</div>
 		<img src="images/portrait3.jpg" class="portrait">
 		<h3>Jane Doe</h3>
-		<p class="small">Ex. Student</p>
+		<p class="small">Former Student</p>
 		<p class="dpt">Fine Arts Department</p>
     </div> <!-- end of col 12 -->
 	<div class="col-lg-1 col-md-1 col-md-0 hideme1">
@@ -185,37 +210,51 @@
 		<hr>
 	</div> <!-- end of col 12 -->
 	<div class="container">
-		<div class="col-lg-4 col-md-4 col-sm-4">
+		<div class="col-lg-3 col-md-3 col-sm-4">
+			<h3 class="left-h3">Study at SAAM</h3>
 			<ul>
-				<li><a href="#">Facilities</a></li>
+				<li><a href="#">Undergraduate</a></li>
+				<li><a href="#">Postgraduate</a></li>
+				<li><a href="#">Distance Learning</a></li>
+				<li><a href="#">Diplomas</a></li>
+				<li><a href="#">Study Programmes</a></li>
+				<li><a href="#">Exchange Programmes</a></li>
+				<li><a href="#">Life-Long Learning</a></li>
+				<li><a href="#">Student Portal</a></li>
+				<li><a href="#">Scholarships</a></li>
+			</ul>
+		</div> <!-- end of col 12 -->
+		<div class="col-lg-3 col-md-3 col-sm-4">
+			<h3 class="left-h3">Facilities</h3>
+			<ul>
+				<li><a href="#">Ateliers</a></li>
+				<li><a href="#">Classrooms</a></li>
+				<li><a href="#">Library</a></li>
 				<li><a href="#">Online Library</a></li>
 				<li><a href="#">Campus</a></li>
-				<li><a href="#">International</a></li>
-				<li><a href="#">Exchange Programs</a></li>
-				<li><a href="#">Guides</a></li>
+				<li><a href="#">Canteen</a></li>
 			</ul>
 		</div> <!-- end of col 12 -->
-		<div class="col-lg-4 col-md-4 col-sm-4">
+		<div class="col-lg-3 col-md-3 col-sm-4">
+			<h3 class="left-h3">Support</h3>
 			<ul>
-				<li><a href="#">Support</a></li>
-				<li><a href="#">Technology</a></li>
-				<li><a href="#">Our Tutors</a></li>
-				<li><a href="#">Our Students</a></li>
-				<li><a href="#">News and Media</a></li>
-				<li><a href="#">Student Portal</a></li>
-			</ul>
-		</div> <!-- end of col 12 -->
-		<div class="col-lg-4 col-md-4 col-sm-4">
-			<ul>
-				<li><a href="#">Gallery</a></li>
+				<li><a href="#">Student Department</a></li>
+				<li><a href="#">Admissions Department</a></li>
 				<li><a href="#">Forum</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Chat</a></li>
+				<li><a href="#">Housing</a></li>
+				<li><a href="#">Maps</a></li>
 			</ul>
-		</div> <!-- end of col 12 -->
+		</div> <!-- end of col 4 -->
+		<div class="col-lg-3 col-md-3 col-sm-12 address">
+			<h3>Contact Address</h3>
+			<br>
+			<p>School of Arts and Media</p>
+			<p>5322 Otter Lane</p>
+			<p>Middleberge FL 32068</p>
+		</div> <!-- end of col 3 -->
 	</div>
 	<div class="col-lg-12 col-md-12 col-sm-12">
-		<p>2017 &#169; School of Arts and Media</p>
+		<p id="copy">2017 &#169; School of Arts and Media</p>
 	</div>
 </div>
 
